@@ -26,6 +26,7 @@ public class PushHelper {
     /**
       Example for AgsPush SDK registration
     */
+// tag::push-ios-register[]
     public func registerUPS(_ deviceToken: Data) {
         AgsCore.logger.info("Registered for notifications with token")
 
@@ -44,6 +45,7 @@ public class PushHelper {
             }
         )
     }
+// end::push-ios-register[]
 
     /**
      Initial setup for push notifications
